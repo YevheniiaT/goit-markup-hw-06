@@ -71,8 +71,8 @@ address {
         max-width: 1158px;
         margin-left: auto;
         margin-right: auto;
-        padding-right: 156px;
-        padding-left: 156px;
+        /* padding-right: 156px;
+        padding-left: 156px; */
     }
 }
 
@@ -399,11 +399,11 @@ row-gap: 72px;
 .our-team-list {
     display: flex;
     gap: 28px;
-    row-gap: 32px;
+    row-gap: 72px;
     flex-wrap: wrap;
     flex-basis: 100%;
     justify-content: center;
-   
+    align-items: center;
 }
 
 .our-team-item {
@@ -416,7 +416,7 @@ row-gap: 72px;
 
 .section-our-team {
 background-color: var(--bcg-color-light);  
-padding: 120px 0;
+padding: 96px 0;
 }
 .our-team-title {
     color: var(--color-brand);
