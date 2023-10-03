@@ -471,7 +471,7 @@ padding: 120px 0;
 /* Our portfolio section */
 
 .our-portfolio-section-main {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 .our-portfolio-section
 {
@@ -486,10 +486,22 @@ padding: 120px 0;
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
-column-gap: 24px;
+    column-gap: 48px;
+    padding-left:16px;
+    padding-right: 16px;
+
+}
+.images {
+width: 288px;
+    height: 280px;
+}
+/* .our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
     row-gap: 48px;
     padding: 0;
-}
+} */
 
 .our-portfolio-photo {
     position: relative;
@@ -513,11 +525,52 @@ column-gap: 24px;
      .our-portfolio-section-item:hover .our-portfolio-overlay {
         transform: translateY(0%);
     } 
-.our-portfolio-section-item {
-flex-basis: calc((100% - 48px) / 3);
-    flex-shrink: 0;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+@media screen and (min-width: 768px) {
+    .our-portfolio-section-item {
+        flex-basis: calc((100% - 24px) / 2);
+        flex-shrink: 0;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+.our-portfolio-section-main {
+    padding: 96px 0;
 }
+    .our-portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+        padding: 0;
+    }
+
+    .images {
+        width: 356px;
+        height: 300px;
+    }
+}
+
+    @media screen and (min-width: 1158px) {
+        .our-portfolio-section-item {
+                flex-basis: calc((100% - 48px) / 3);
+                flex-shrink: 0;
+                transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+                        .our-portfolio-section-main {
+                            padding: 120px 0;
+                        }
+.our-portfolio-list {
+         display: flex;
+         flex-wrap: wrap;
+         column-gap: 24px;
+         row-gap: 48px;
+          padding: 0;
+                  }
+           .images {
+               width: 360px;
+                 height: 300px;
+                 flex-shrink: 0;
+                    }
+    }
+
 
 .our-portfolio-section-item:hover{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
