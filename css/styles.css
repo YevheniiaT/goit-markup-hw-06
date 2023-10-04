@@ -766,8 +766,15 @@ padding: 96px 0;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+}
+.footer-social-media-subscribe {
+    color: var(--color-primery-light);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+        text-align: center;
 }
 
 
@@ -881,6 +888,9 @@ input::placeholder {
 padding-left: 108px;
 padding-right: 108px;
     }
+    .footer-logo-container {
+        text-align: left;
+    }
     .footer-flex-container {
             display: flex;
             /* align-items: baseline; */
@@ -912,6 +922,7 @@ padding-right: 108px;
         .footer-social-media-text {
           text-align: left;
         }
+       
         .logo-footer {
             text-align: left;
         }
