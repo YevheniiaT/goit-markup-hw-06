@@ -714,6 +714,8 @@ padding: 96px 0;
 .footer-icon-list {
     display: flex;
     gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-icon-item {
@@ -753,7 +755,7 @@ padding: 96px 0;
 } */
 
 .footer-social-media {
-    margin-left: 80px;
+    margin-bottom: 72px;
 }
 
 .footer-social-media-text {
@@ -763,11 +765,12 @@ padding: 96px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: center;
 }
 
-/* .footer-logo-container {
-    margin-top: 97.5px;
-} */
+.footer-logo-container {
+   text-align: center;
+}
 
 .footer {
     background-color: var(--color-brand);
@@ -778,9 +781,11 @@ padding: 96px 0;
     color: var(--bcg-color-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 288px;
     padding-right: 16px;
     padding-left: 16px;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-footer {
@@ -894,6 +899,18 @@ input::placeholder {
             margin-bottom: 16px;
             display: inline-block
         }
+                .footer-text {
+                    color: var(--bcg-color-light);
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    width: 288px;
+                    padding-right: 16px;
+                    padding-left: 16px;
+                }
+                .footer-icon-list {
+                    display: flex;
+                    gap: 16px;
+                }
  }
  @media screen and (min-width: 1158px) {
      .footer-flex-container {
@@ -923,6 +940,29 @@ input::placeholder {
     text-transform: uppercase;
     margin-bottom: 16px;
     display: inline-block
+}
+.footer-text {
+    color: var(--bcg-color-light);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 288px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.footer-icon-list {
+    display: flex;
+    gap: 16px;
+}
+.footer-social-media {
+    margin-left: 80px;
+}
+.footer-social-media-text {
+    color: var(--color-primery-light);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
  }
 
