@@ -875,43 +875,48 @@ input::placeholder {
 .footer-input-icon-button {
     margin-left: 16px;
 }
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) and (max-width: 1158px) {
+
+    .footer-extra-container {
+padding-left: 108px;
+padding-right: 108px;
+    }
     .footer-flex-container {
             display: flex;
-            align-items: baseline;
-            max-width: 1158px;
+            /* align-items: baseline; */
+            max-width: 768px;
+            max-height: 456px;
             margin: 0 auto;
-            padding: 0 15px;}
+            flex-wrap: wrap;
+    }
+    .container-logo-sm {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        
+    }
 
-        .footer-logo-container {
+        /* .footer-logo-container {
             margin-right: 120px;
-        }
+        } */
                 .footer-text {
                     color: var(--bcg-color-light);
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     width: 264px;
+                    text-align: left;
+                    padding-right: 0;
+                        padding-left: 0;
                 }
-        .logo-footer {
-            color: var(--color-logo-button);
-            font-family: 'Raleway',
-                sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            margin-bottom: 16px;
-            display: inline-block
+
+        .footer-social-media-text {
+          text-align: left;
         }
-                .footer-text {
-                    color: var(--bcg-color-light);
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    width: 288px;
-                    padding-right: 16px;
-                    padding-left: 16px;
-                }
+        .logo-footer {
+            text-align: left;
+        }
+        
+              
                 .footer-icon-list {
                     display: flex;
                     gap: 16px;
@@ -951,8 +956,8 @@ input::placeholder {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 288px;
-    padding-right: 16px;
-    padding-left: 16px;
+    /* padding-right: 16px;
+    padding-left: 16px; */
 }
 .footer-icon-list {
     display: flex;
