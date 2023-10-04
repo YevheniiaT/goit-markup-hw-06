@@ -199,7 +199,7 @@ address:focus {
     display: none;
 }
 /* Mobile screen */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .header-menu{
         display: none;
     }
