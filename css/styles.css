@@ -223,7 +223,7 @@ address:focus {
 }
 }
 /* Tablet */
-@media  screen and (min-width:768) {
+@media only screen and (min-width:768) {
     .container.header-inner {
         max-width: 768px;
         max-height: 72px;
@@ -236,7 +236,7 @@ address:focus {
     }
 }
 /* Desktop */
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
 .header-address-list {
         display: flex;
         gap: 40px;
@@ -248,7 +248,7 @@ address:focus {
 /* Mobile screen */
 .hero-section {
     background-color: var(--color-brand);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/hero/_mob_h.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/_mob_h.jpg);
     background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -284,7 +284,7 @@ address:focus {
     }
           
         /* Tablet screen */
-    @media screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) {
       .hero-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/_desk_h.jpg);
         background-color: var(--color-brand);
@@ -315,12 +315,12 @@ address:focus {
              }
          }
          /*  Desktop screen  */
-         @media screen and (min-width: 1158px) {
+         @media only screen and (min-width: 1158px) {
              .hero-section {
                  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/_desk_h.jpg);
                 background-color: var(--color-brand);
                 width: 100%;
-                max-width: 1440px;
+                max-width: 1158px;
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
