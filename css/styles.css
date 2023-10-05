@@ -257,7 +257,7 @@ address:focus {
 /* Mobile screen */
 .hero-section {
     background-color: var(--color-brand);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/_mob.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_mob.jpg");
     background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -283,14 +283,14 @@ address:focus {
     @media only screen and (min-resolution: 192dpi) {
         .hero-section {
                 background-color: var(--color-brand);
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/_mob@2x.jpg);
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_mob@2x.jpg");
             }
     }
           
         /* Tablet screen */
     @media only screen and (min-width: 768px) {
       .hero-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/_tab.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_tab.jpg");
         background-color: var(--color-brand);
         background-repeat: no-repeat;
             background-size: cover;
@@ -314,13 +314,13 @@ address:focus {
          @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
              .hero-section {
                  background-color: var(--color-brand);
-                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/_tab@2x.jpg);
+                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_tab@2x.jpg");
              }
          }
          /*  Desktop screen  */
          @media only screen and (min-width: 1158px) {
              .hero-section {
-                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/_desk.jpg);
+                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_desk.jpg");
                 background-color: var(--color-brand);
                 width: 100%;
                     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ address:focus {
                          @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
                              .hero-section {
                                  background-color: var(--color-brand);
-                                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/_desk@2x.jpg);
+                                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_desk@2x.jpg");
                              }
                
                          }
