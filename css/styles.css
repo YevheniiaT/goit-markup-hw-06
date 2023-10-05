@@ -240,7 +240,12 @@ address:focus {
 .header-address-list {
         display: flex;
         gap: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
     }
+
 }
 
 
