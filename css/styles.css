@@ -245,6 +245,10 @@ address:focus {
         flex-wrap: nowrap;
         flex-direction: row;
     }
+        .container.header-inner {
+            max-width: 1158px;
+            max-height: 72px;
+        }
 
 }
 
