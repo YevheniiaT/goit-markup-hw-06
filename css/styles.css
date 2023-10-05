@@ -978,16 +978,18 @@ padding-right: 108px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin-left: 80px;
     align-items: flex-start;
 }
 .footer-form-wraper {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: center;
     gap: 24px;
     flex-direction: row;
+  
+
 }
  }
 
