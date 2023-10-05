@@ -343,7 +343,7 @@ address:focus {
             }
                          @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
                              .hero-section {
-                                 background-color: var(--color-brand);
+                                 /* background-color: var(--color-brand); */
                                  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/img_h_desk@2x.jpg");
                              }
                
