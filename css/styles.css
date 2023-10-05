@@ -3,7 +3,7 @@
 *::after {
     box-sizing: border-box;
 }
-/* fix margin and padding for logo */
+
 
 :root {
     --color-brand: #2E2F42;
@@ -223,7 +223,7 @@ address:focus {
 }
 }
 /* Tablet */
-@media only screen and (min-width:768) {
+@media only screen and (min-width:768px) {
     .container.header-inner {
         max-width: 768px;
         max-height: 72px;
@@ -262,11 +262,10 @@ address:focus {
             padding: 72px 0;
     }
          .hero-section-title {
-    
              color: var(--color-primery-light);
              font-size: 36px;
              line-height: 1.11;
-             letter-spacing: 0.02emx;
+             letter-spacing: 0.02em;
              text-transform: capitalize;
              margin: 0 auto;
              text-align: center;
