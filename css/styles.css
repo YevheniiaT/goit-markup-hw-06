@@ -68,7 +68,7 @@ address {
 /* Desktop screen */
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
+        width: 1158px;
         margin-left: auto;
         margin-right: auto;
         /* padding-right: 156px;
@@ -85,7 +85,6 @@ address {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 
@@ -168,10 +167,9 @@ color: #404bbf;
 } */
 .address-info {
     color: var(--color-primery);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .address-info-mail:hover {
@@ -221,12 +219,28 @@ address:focus {
     height: 24px;
     margin-right: auto;
 }
+.address-info {
+    color: var(--color-primery);
+    font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.4em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
+   
+}
 }
 /* Tablet */
 @media only screen and (min-width:768px) {
     .container.header-inner {
-        max-width: 768px;
-        max-height: 72px;
+        width: 768px;
+        height: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
+        /* max-width: 768px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 16px;
+            padding-left: 16px; */
     } 
     .logo {
         margin-right: 120px;
@@ -238,6 +252,7 @@ address:focus {
 /* Desktop */
 @media only screen and (min-width: 1158px) {
 .header-address-list {
+    width: 1158px;
         display: flex;
         gap: 40px;
         justify-content: center;
@@ -617,6 +632,9 @@ padding: 96px 0;
                 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
             }
      */
+         .our-portfolio-section-item {
+             padding-bottom: 48px;
+         }
                    .our-portfolio-section-main {
                        padding: 96px 0;
                    }
@@ -640,7 +658,9 @@ padding: 96px 0;
         flex-basis: calc((100% - 24px) / 2);
         flex-shrink: 0;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding-bottom: 0;
     }
+       
 .our-portfolio-section-main {
     padding: 96px 0;
 }
@@ -663,6 +683,7 @@ padding: 96px 0;
                 flex-basis: calc((100% - 48px) / 3);
                 flex-shrink: 0;
                 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                padding-bottom: 0;
             }
                         .our-portfolio-section-main {
                             padding: 120px 0;
@@ -686,9 +707,7 @@ padding: 96px 0;
         padding-left: 0;
     }
     }
-.our-portfolio-section-item {
-    padding-bottom: 48px;
-}
+
 
 .our-portfolio-section-item:hover{
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -754,13 +773,11 @@ padding: 96px 0;
     fill: #f4f4fd;
 }
 
-/* .footer-flex-container {
+.footer-flex-container {
     max-width: 320px;
-    display: flex;
-    align-items: baseline;
-    margin: 0 auto;
-    padding: 0 15px;
-} */
+   margin: 0 auto;
+  
+}
 
 .footer-social-media {
     margin-bottom: 72px;
@@ -1245,6 +1262,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     align-items: center;
 background-color: transparent;
+border: 1px solid rgba(0, 0, 0, 0.1);
   
 }
 .mobile-menu-icon {
@@ -1252,6 +1270,11 @@ background-color: transparent;
     width: 8px;
         height: 8px;
         flex-shrink: 0;
+
+        /* fill: #E7E9FC;
+            stroke-width: 1px;
+            stroke:  #2E2F42;
+            opacity: 0.1; */
 }
 .mobile-menu-list {
     margin-bottom: auto;
@@ -1286,4 +1309,10 @@ color: #404BBF;
 .mobile-contacts {
     margin-bottom: 48px;
 }
-
+.footer-icon-list-mobile {
+    display: flex;
+        gap: 16px;
+        justify-content: space-between;
+        align-items: center;
+      
+}
