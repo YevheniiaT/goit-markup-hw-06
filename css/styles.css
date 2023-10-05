@@ -256,8 +256,8 @@ address:focus {
 /* hero section */
 /* Mobile screen */
 .hero-section {
-    /* background-color: var(--color-brand); */
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_mob.jpg");
+    background-color: var(--color-brand);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob.jpg);
     background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -282,16 +282,16 @@ address:focus {
          }
     @media only screen and (min-resolution: 192dpi) {
         .hero-section {
-                /* background-color: var(--color-brand); */
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_mob@2x.jpg");
+                background-color: var(--color-brand);
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob@2x.jpg);
             }
     }
           
         /* Tablet screen */
     @media only screen and (min-width: 768px) {
       .hero-section {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_tab.jpg");
-        /* background-color: var(--color-brand); */
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab.jpg);
+        background-color: var(--color-brand);
         background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -313,15 +313,15 @@ address:focus {
     }
          @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
              .hero-section {
-                 /* background-color: var(--color-brand); */
-                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_tab@2x.jpg");
+                 background-color: var(--color-brand);
+                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab@2x.jpg);
              }
          }
          /*  Desktop screen  */
          @media only screen and (min-width: 1158px) {
              .hero-section {
-                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/_img_h_desk.jpg");
-                /* background-color: var(--color-brand); */
+                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desk.jpg);
+                background-color: var(--color-brand);
                 width: 100%;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -343,8 +343,8 @@ address:focus {
             }
                          @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
                              .hero-section {
-                                 /* background-color: var(--color-brand); */
-                                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/img_h_desk@2x.jpg");
+                                 background-color: var(--color-brand);
+                                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desk@2x.jpg);
                              }
                
                          }
@@ -679,6 +679,12 @@ padding: 96px 0;
                  height: 300px;
                  flex-shrink: 0;
                     }
+    .our-portfolio-section-title {
+        padding-left: 0;
+    }
+    .our-portfolio-section-position {
+        padding-left: 0;
+    }
     }
 .our-portfolio-section-item {
     padding-bottom: 48px;
@@ -703,14 +709,14 @@ padding: 96px 0;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-left: 16px;
+    /* padding-left: 16px; */
      margin-bottom: 8px; 
 }
 .our-portfolio-section-position {
     color: var(--color-primery);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-left: 16px;
+    /* padding-left: 16px; */
 }
 /* Footer */
 .footer-icon-list {
