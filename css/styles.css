@@ -755,9 +755,9 @@ padding: 96px 0;
 }
 
 /* .footer-flex-container {
+    max-width: 320px;
     display: flex;
     align-items: baseline;
-    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 } */
