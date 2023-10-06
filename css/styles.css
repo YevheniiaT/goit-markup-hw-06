@@ -990,6 +990,7 @@ padding-right: 108px;
 .container-logo-sm {
     display: flex;
     flex-direction: row;
+    gap: 120px;
 }
 .footer-text {
     color: var(--bcg-color-light);
@@ -1009,7 +1010,8 @@ padding-right: 108px;
     gap: 16px;
 }
 .footer-social-media {
-    margin-left: 80px;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 .footer-social-media-text {
     color: var(--color-primery-light);
