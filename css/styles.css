@@ -77,13 +77,14 @@ address {
 }
 
 /* Header */
+
+
 .header {
     border-bottom: 1px solid  #E7E9FC;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 
 }
 .header-inner {
-    /* width: 1158px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,10 +164,6 @@ color: #404bbf;
 .nav-link:active {
     color: #404bbf;
 }
-/* .header-address-list {
-    display: flex;
-    gap: 40px;
-} */
 .address-info {
     color: var(--color-primery);
     font-size: 16px;
@@ -238,11 +235,7 @@ address:focus {
         height: 72px;
         padding-left: 16px;
         padding-right: 16px;
-        /* max-width: 768px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-right: 16px;
-            padding-left: 16px; */
+     
     } 
     .logo {
         margin-right: 120px;
@@ -254,7 +247,7 @@ address:focus {
 /* Desktop */
 @media only screen and (min-width: 1158px) {
 .header-address-list {
-    width: 1158px;
+ 
         display: flex;
         gap: 40px;
         justify-content: center;
@@ -263,7 +256,6 @@ address:focus {
         flex-direction: row;
     }
         .container.header-inner {
-            max-width: 1158px;
             max-height: 72px;
         }
 
